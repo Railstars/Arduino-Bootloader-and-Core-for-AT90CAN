@@ -1,0 +1,4 @@
+To use:
+ *Within your Arduino sketch folder, create a folder called "hardware"
+ *Move the folder called "AT90CAN" from your download inside the "hardware" folder
+ *Restart the Arduino IDE
