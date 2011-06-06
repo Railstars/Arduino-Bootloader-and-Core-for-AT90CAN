@@ -1,0 +1,25 @@
+##############################################################
+
+AT90CAN.name=AT90CAN-based board
+AT90CAN.upload.protocol=stk500
+AT90CAN.upload.maximum_size=126976
+AT90CAN.upload.speed=57600
+
+# AT90CAN.bootloader.low_fuses=0xFF
+# AT90CAN.bootloader.high_fuses=0x9C
+# AT90CAN.bootloader.extended_fuses=0x05
+AT90CAN.bootloader.low_fuses=0xFF
+AT90CAN.bootloader.high_fuses=0x18
+AT90CAN.bootloader.extended_fuses=0xF5
+AT90CAN.bootloader.path=OpenLCB
+AT90CAN.bootloader.file=ATmegaBOOT_168_at90can.hex
+AT90CAN.bootloader.unlock_bits=0x3F
+# AT90CAN.bootloader.lock_bits=0xCF
+AT90CAN.bootloader.lock_bits=0x3F
+
+AT90CAN.build.mcu=at90can128
+AT90CAN.build.f_cpu=16000000L
+AT90CAN.build.core=OpenLCB
+
+
+
